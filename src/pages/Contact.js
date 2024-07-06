@@ -1,6 +1,6 @@
-import React from "react";
-import pizzaLeft from "../assets/pizzaLeft.jpg";
-import "../styles/Contact.css";
+import React from 'react'
+import pizzaLeft from '../assets/pizzaLeft.jpg'
+import '../styles/Contact.css'
 
 function Contact() {
   return (
@@ -22,10 +22,12 @@ function Contact() {
           <label htmlFor="message">Message</label>
           <textarea rows="6" placeholder="Enter message..." required></textarea>
         </form>
-        <button className="form-but"type="submit">Send Message</button>
+        <button className="form-but" type="submit">
+          Send Message
+        </button>
       </div>
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default Contact
